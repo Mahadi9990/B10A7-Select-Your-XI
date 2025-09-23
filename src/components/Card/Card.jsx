@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { faFlag } from "@fortawesome/free-solid-svg-icons"; 
-export default function Card({ singleCard }) {
+export default function Card({ singleCard ,handleclick }) {
   return (
     <div className="p-5 shadow-2xl rounded-2xl border-2 border-black sm:w-[70%] md:w-full mx-auto">
       <div>
@@ -27,7 +27,7 @@ export default function Card({ singleCard }) {
       </div>
       <div className="flex justify-between items-center">
         <h1 className="font-bold">Price: $<span className="font-normal">{singleCard.price}</span></h1>
-        <button className="btn">Choose Player</button>
+        <button onClick={()=>handleclick(singleCard.name)} className="btn">Choose Player</button>
       </div>
     </div>
   );
