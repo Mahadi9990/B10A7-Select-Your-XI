@@ -1,7 +1,7 @@
-export default function Navbar() {
+export default function Navbar({coin}) {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-base-100 shadow-sm max-w-[1200px] mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -26,52 +26,42 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <a>Home</a>
               </li>
               <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
+                <a>Fixture</a>
               </li>
               <li>
-                <a>Item 3</a>
+               <a>Teams</a>
+              </li>
+              <li>
+                <a>Schedules</a>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="text-xl">
+            <img className="w-full h-full object-cover" src="/src/assets/logo.png"/>
+          </a>
         </div>
 
         <div className="navbar-end">
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <a>Item 1</a>
+                <a>Home</a>
               </li>
               <li>
-                <details>
-                  <summary>Parent</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
-                  </ul>
-                </details>
+                <a>Fixture</a>
               </li>
               <li>
-                <a>Item 3</a>
+               <a>Teams</a>
+              </li>
+              <li>
+                <a>Schedules</a>
               </li>
             </ul>
           </div>
-          <a className="btn">Button</a>
+          <a className="btn">{coin}<span>Coin </span><img src="/src/assets/dollar 1.png" alt="" /></a>
         </div>
       </div>
     </>

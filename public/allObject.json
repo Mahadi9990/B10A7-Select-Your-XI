@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Virat Kohli",
+    "battingRole": "Top-order Batter",
+    "bowlingRole": "None",
+    "country": "India",
+    "price": 2000000,
+    "rating": 9.5,
+    "image": "https://i.ibb.co.com/VW3vfv7t/virat-kholi.png"
+  },
+  {
+    "name": "Babar Azam",
+    "battingRole": "Top-order Batter",
+    "bowlingRole": "Part-time Off-spin",
+    "country": "Pakistan",
+    "price": 1800000,
+    "rating": 9.3,
+    "image": "https://i.ibb.co.com/DHFn3tqQ/babar-azam-png.png"
+  },
+  {
+    "name": "Steve Smith",
+    "battingRole": "Top-order Batter",
+    "bowlingRole": "Leg-spin",
+    "country": "Australia",
+    "price": 1750000,
+    "rating": 9.0,
+    "image": "https://i.ibb.co.com/DPNYkTL0/Steve-Smith.jpg"
+  },
+  {
+    "name": "Kane Williamson",
+    "battingRole": "Top-order Batter",
+    "bowlingRole": "Part-time Off-spin",
+    "country": "New Zealand",
+    "price": 1700000,
+    "rating": 9.2,
+    "image": "https://i.ibb.co.com/60DsrNQ9/Kane-Williamson.jpg"
+  },
+  {
+    "name": "Rohit Sharma",
+    "battingRole": "Opener",
+    "bowlingRole": "Part-time Off-spin",
+    "country": "India",
+    "price": 1600000,
+    "rating": 9.1,
+    "image": "https://i.ibb.co.com/xKbKHVJy/Rohit-Sharma.jpg"
+  },
+  {
+    "name": "Jos Buttler",
+    "battingRole": "Wicketkeeper Batter",
+    "bowlingRole": "None",
+    "country": "England",
+    "price": 1550000,
+    "rating": 8.9,
+    "image": "https://i.ibb.co.com/VcB9CT9G/Jos-Buttler.jpg"
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "battingRole": "All-rounder",
+    "bowlingRole": "Left-arm Orthodox Spin",
+    "country": "Bangladesh",
+    "price": 1500000,
+    "rating": 9.0,
+    "image": "https://i.ibb.co.com/dsHPdzgK/gettyimages-2154844262-594x594.jpg"
+  },
+  {
+    "name": "Ben Stokes",
+    "battingRole": "All-rounder",
+    "bowlingRole": "Right-arm Fast-medium",
+    "country": "England",
+    "price": 1900000,
+    "rating": 9.4,
+    "image": "https://i.ibb.co.com/xSg2SNSd/Ben-Stokes-1.jpg"
+  },
+  {
+    "name": "Rashid Khan",
+    "battingRole": "Lower-order Batter",
+    "bowlingRole": "Leg-spin",
+    "country": "Afghanistan",
+    "price": 1400000,
+    "rating": 9.3,
+    "image": "https://i.ibb.co.com/s9Z121vv/Rashid-Khan.png"
+  },
+  {
+    "name": "Jasprit Bumrah",
+    "battingRole": "Lower-order Batter",
+    "bowlingRole": "Right-arm Fast",
+    "country": "India",
+    "price": 1850000,
+    "rating": 9.4,
+    "image": "https://i.ibb.co.com/Xqt9qmG/Jasprit-Bumrah.png"
+  },
+  {
+    "name": "Shaheen Afridi",
+    "battingRole": "Lower-order Batter",
+    "bowlingRole": "Left-arm Fast",
+    "country": "Pakistan",
+    "price": 1700000,
+    "rating": 9.2,
+    "image": "https://i.ibb.co.com/tp3QZQjC/Shaheen-Afridi.png"
+  },
+  {
+    "name": "Pat Cummins",
+    "battingRole": "Lower-order Batter",
+    "bowlingRole": "Right-arm Fast",
+    "country": "Australia",
+    "price": 1800000,
+    "rating": 9.1,
+    "image": "https://i.ibb.co.com/4RyVyZFj/patcummins.png"
+  }
+]
