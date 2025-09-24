@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { faFlag } from "@fortawesome/free-solid-svg-icons"; 
+import { useState } from "react";
 export default function Card({ singleCard ,handleclick }) {
+  const [choseButton, setchoseButton] = useState(false);
   return (
     <div className="p-5 shadow-2xl rounded-2xl border-2 border-black sm:w-[70%] md:w-full mx-auto">
       <div>
@@ -27,7 +29,10 @@ export default function Card({ singleCard ,handleclick }) {
       </div>
       <div className="flex justify-between items-center">
         <h1 className="font-bold">Price: $<span className="font-normal">{singleCard.price}</span></h1>
-        <button onClick={()=>handleclick(singleCard.name)} className="btn">Choose Player</button>
+        <button disabled={choseButton} onClick={()=>{
+          handleclick(singleCard.name)
+          setchoseButton(true)
+          }} className={`btn ${choseButton?'text-green-400':'text-black'}`}>{choseButton?"Selected":"Choose Player"}</button>
       </div>
     </div>
   );

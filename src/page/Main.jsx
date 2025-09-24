@@ -7,19 +7,19 @@ const fetchAllData = async () => {
   const res = await fetch("/allObject.json");
   return res.json();
 };
+const fetchData = fetchAllData();
 export default function Main({setcoin,coin}) {
-  const fetchData = fetchAllData();
   const [troggle, settroggle] = useState(false);
-  
+  const [selectCount, setselectCount] = useState(0);
   return (
     <div>
-      <ButtonArea troggle={troggle} settroggle={settroggle}/>
+      <ButtonArea selectCount={selectCount} troggle={troggle} settroggle={settroggle}/>
       <Suspense
         fallback={
           <Loader/>
         }
       >
-        <FatchAllData coin={coin} setcoin={setcoin}  troggle={troggle} settroggle={settroggle} fetchData={fetchData} />
+        <FatchAllData setselectCount={setselectCount} coin={coin} setcoin={setcoin}  troggle={troggle} settroggle={settroggle} fetchData={fetchData} />
       </Suspense>
     </div>
   );

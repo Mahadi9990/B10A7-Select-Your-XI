@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Main from "./page/Main";
 
 export default function App() {
-  const [coin, setcoin] = useState(5000000);
+  const [coin, setcoin] = useState(60000000);
   return (
     <div>
       <Navbar  coin={coin} />
